@@ -45,3 +45,5 @@ def test_add_contact_success(auth_headers):
         and contact["address"]==new_contact["address"]
     ]
     assert len(matching_contacts)>0
+
+
